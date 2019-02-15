@@ -1,11 +1,11 @@
 ---
 # Lets add a comment to make this file sass-y.
 # Change this file for any custom CSS.
----
+  ---
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 @import
-	"syntax"
+"syntax"
 ;
 
 .mediumnavigation {
@@ -109,19 +109,19 @@ li.css a {
 }
 
 .listfeaturedtag .wrapthumbnail-num {
-  align-self: center;
-  text-align: center;
-  img {
-    box-shadow: none;
-  }
+	align-self: center;
+	text-align: center;
+	img {
+		box-shadow: none;
+	}
 }
 
 .num.listfeaturedtag .card {
-  height: auto;
-  padding: 1.25rem;
-  .card-block {
-    padding: 0;
-  }
+	height: auto;
+	padding: 1.25rem;
+	.card-block {
+		padding: 0;
+	}
 }
 
 .video-container {
@@ -182,7 +182,7 @@ li.css a {
 		}
 	}
 	.about, .research, .education, .medias {
-		.section-title {
+		section > .section-title {
 			display: none;
 		}
 	}
@@ -215,6 +215,7 @@ li.css a {
 		}
 	}
 	.recent-posts {
+		position: relative;
 		.card-block {
 			min-height: 230px;
 		}
@@ -224,5 +225,10 @@ li.css a {
 		&:hover {
 			background-color: #44a3d3;
 		}
+	}
+
+	.sidebar {
+		position: sticky;
+		top: 100px;
 	}
 }
