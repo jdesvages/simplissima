@@ -102,7 +102,7 @@ html[xmlns] .flexslider .slides {
   transition: all 1s ease;
 }
 .loading .flex-viewport {
-  max-height: 300px;
+  max-height: 980px;
 }
 @-moz-document url-prefix() {
   .loading .flex-viewport {
