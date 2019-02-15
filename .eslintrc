@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    // Override any settings from the "parent" configuration
+    "no-trailing-spaces": [
+      "error",
+      {
+        "ignoreComments": true,
+        "skipBlankLines": true
+      }
+    ],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "operator-linebreak": [
+      "error",
+      "before",
+      {
+        "overrides": {
+          "=": "after"
+        }
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "template-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-mixed-operators": 0,
+    "no-return-assign": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreStrings": true,
+        "ignoreUrls": true
+      }
+    ]
+  }
+}
