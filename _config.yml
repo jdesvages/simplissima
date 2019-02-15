@@ -1,0 +1,40 @@
+# Site
+name: SimplissimA
+description: For Research, For Health, For our future
+meta_description: "For Research, For Health, For our future."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl:
+email: 'contact@simplissima.org'
+google_analytics: 'UA-46278016-'
+disqus: 'simplissima'
+sharethis: '<script async src="//platform-api.sharethis.com/js/sharethis.js#property=5c6691277056550011c4a2d3&product="sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  sal:
+    name: NewCom Régie
+    display_name: NewCom Régie
+    gravatar:
+    email: contact@simplissima.org
+    web: https://www.simplissima.org
+    twitter: https://twitter.com/simplissima007
+    description: ""
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
