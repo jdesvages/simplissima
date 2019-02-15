@@ -1,0 +1,350 @@
+.highlight {
+  background: #ffffff;
+  /* Comment */
+  /* Error */
+  /* Keyword */
+  /* Operator */
+  /* Comment.Multiline */
+  /* Comment.Preproc */
+  /* Comment.Single */
+  /* Comment.Special */
+  /* Generic.Deleted */
+  /* Generic.Deleted.Specific */
+  /* Generic.Emph */
+  /* Generic.Error */
+  /* Generic.Heading */
+  /* Generic.Inserted */
+  /* Generic.Inserted.Specific */
+  /* Generic.Output */
+  /* Generic.Prompt */
+  /* Generic.Strong */
+  /* Generic.Subheading */
+  /* Generic.Traceback */
+  /* Keyword.Constant */
+  /* Keyword.Declaration */
+  /* Keyword.Pseudo */
+  /* Keyword.Reserved */
+  /* Keyword.Type */
+  /* Literal.Number */
+  /* Literal.String */
+  /* Name.Attribute */
+  /* Name.Builtin */
+  /* Name.Class */
+  /* Name.Constant */
+  /* Name.Entity */
+  /* Name.Exception */
+  /* Name.Function */
+  /* Name.Namespace */
+  /* Name.Tag */
+  /* Name.Variable */
+  /* Operator.Word */
+  /* Text.Whitespace */
+  /* Literal.Number.Float */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Oct */
+  /* Literal.String.Backtick */
+  /* Literal.String.Char */
+  /* Literal.String.Doc */
+  /* Literal.String.Double */
+  /* Literal.String.Escape */
+  /* Literal.String.Heredoc */
+  /* Literal.String.Interpol */
+  /* Literal.String.Other */
+  /* Literal.String.Regex */
+  /* Literal.String.Single */
+  /* Literal.String.Symbol */
+  /* Name.Builtin.Pseudo */
+  /* Name.Variable.Class */
+  /* Name.Variable.Global */
+  /* Name.Variable.Instance */
+  /* Literal.Number.Integer.Long */ }
+  .highlight .c {
+    color: #999988;
+    font-style: italic; }
+  .highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2; }
+  .highlight .k {
+    font-weight: bold; }
+  .highlight .o {
+    font-weight: bold; }
+  .highlight .cm {
+    color: #999988;
+    font-style: italic; }
+  .highlight .cp {
+    color: #999999;
+    font-weight: bold; }
+  .highlight .c1 {
+    color: #999988;
+    font-style: italic; }
+  .highlight .cs {
+    color: #999999;
+    font-weight: bold;
+    font-style: italic; }
+  .highlight .gd {
+    color: #000000;
+    background-color: #ffdddd; }
+  .highlight .gd .x {
+    color: #000000;
+    background-color: #ffaaaa; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gr {
+    color: #aa0000; }
+  .highlight .gh {
+    color: #999999; }
+  .highlight .gi {
+    color: #000000;
+    background-color: #ddffdd; }
+  .highlight .gi .x {
+    color: #000000;
+    background-color: #aaffaa; }
+  .highlight .go {
+    color: #888888; }
+  .highlight .gp {
+    color: #555555; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gu {
+    color: #aaaaaa; }
+  .highlight .gt {
+    color: #aa0000; }
+  .highlight .kc {
+    font-weight: bold; }
+  .highlight .kd {
+    font-weight: bold; }
+  .highlight .kp {
+    font-weight: bold; }
+  .highlight .kr {
+    font-weight: bold; }
+  .highlight .kt {
+    color: #445588;
+    font-weight: bold; }
+  .highlight .m {
+    color: #009999; }
+  .highlight .s {
+    color: #d14; }
+  .highlight .na {
+    color: #008080; }
+  .highlight .nb {
+    color: #0086B3; }
+  .highlight .nc {
+    color: #445588;
+    font-weight: bold; }
+  .highlight .no {
+    color: #008080; }
+  .highlight .ni {
+    color: #800080; }
+  .highlight .ne {
+    color: #990000;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #990000;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #555555; }
+  .highlight .nt {
+    color: #000080; }
+  .highlight .nv {
+    color: #008080; }
+  .highlight .ow {
+    font-weight: bold; }
+  .highlight .w {
+    color: #bbbbbb; }
+  .highlight .mf {
+    color: #009999; }
+  .highlight .mh {
+    color: #009999; }
+  .highlight .mi {
+    color: #009999; }
+  .highlight .mo {
+    color: #009999; }
+  .highlight .sb {
+    color: #d14; }
+  .highlight .sc {
+    color: #d14; }
+  .highlight .sd {
+    color: #d14; }
+  .highlight .s2 {
+    color: #d14; }
+  .highlight .se {
+    color: #d14; }
+  .highlight .sh {
+    color: #d14; }
+  .highlight .si {
+    color: #d14; }
+  .highlight .sx {
+    color: #d14; }
+  .highlight .sr {
+    color: #009926; }
+  .highlight .s1 {
+    color: #d14; }
+  .highlight .ss {
+    color: #990073; }
+  .highlight .bp {
+    color: #999999; }
+  .highlight .vc {
+    color: #008080; }
+  .highlight .vg {
+    color: #008080; }
+  .highlight .vi {
+    color: #008080; }
+  .highlight .il {
+    color: #009999; }
+
+.mediumnavigation {
+  background-color: #fff;
+  padding: .5rem 1rem;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5); }
+
+.nav-link {
+  background-color: #ffd700; }
+  .nav-link.lk-a:hover {
+    background-color: red; }
+  .nav-link.lk-b:hover {
+    background-color: deepskyblue; }
+  .nav-link.lk-c:hover {
+    background-color: yellow; }
+  .nav-link.lk-d:hover {
+    background-color: #6fd350; }
+  .nav-link.lk-e:hover {
+    background-color: mediumpurple; }
+
+.flexslider {
+  margin-bottom: 0 !important;
+  border: none !important;
+  overflow: hidden; }
+  .flexslider .slides li {
+    position: relative; }
+    .flexslider .slides li img {
+      position: relative;
+      max-height: 100vh; }
+    .flexslider .slides li .btn {
+      margin-top: 15px; }
+  .flexslider .flex-control-paging {
+    display: none; }
+
+.flex-caption {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  z-index: 10; }
+
+.in-page {
+  font-size: 2.5rem;
+  padding: 1rem 5rem; }
+
+.framed {
+  background-color: #f4f4f4;
+  padding: 20px 20px 5px;
+  margin-bottom: 30px; }
+
+li.css a {
+  border-radius: 0; }
+
+.beforefooter {
+  text-align: center;
+  margin-top: 0; }
+  .beforefooter h5 {
+    line-height: 1.5; }
+
+.post-top-meta .author-thumb {
+  width: 100px;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none; }
+
+.listfeaturedtag .wrapthumbnail-num {
+  align-self: center;
+  text-align: center; }
+  .listfeaturedtag .wrapthumbnail-num img {
+    box-shadow: none; }
+
+.num.listfeaturedtag .card {
+  height: auto;
+  padding: 1.25rem; }
+  .num.listfeaturedtag .card .card-block {
+    padding: 0; }
+
+.video-container {
+  position: relative;
+  height: 0;
+  padding-top: 30px;
+  padding-bottom: 56.25%;
+  margin: 50px 0;
+  overflow: hidden; }
+  .video-container iframe, .video-container object, .video-container embed, .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+@media (max-width: 991px) {
+  .layout-page .site-content {
+    padding-top: 30px; }
+
+  .navbar-toggleable-md .navbar-nav .nav-link {
+    padding-left: 10px; }
+
+  .flexslider {
+    margin-bottom: 0 !important; }
+
+  .flex-caption {
+    font-size: 1.5rem;
+    line-height: 1; }
+
+  .full-img {
+    display: none; }
+
+  .listfeaturedtag .wrapthumbnail-num {
+    margin-bottom: 15px; }
+
+  .post-top-meta .author-thumb {
+    margin-bottom: 10px; } }
+@media (min-width: 992px) {
+  .layout-page .contact, .layout-page .biography {
+    padding-top: 30px; }
+
+  .about section > .section-title, .research section > .section-title, .education section > .section-title, .medias section > .section-title {
+    display: none; }
+
+  .flexslider .slides {
+    height: calc(100vh - 105px);
+    overflow: hidden; }
+    .flexslider .slides .flex-caption {
+      font-size: 2rem;
+      line-height: 1; }
+    .flexslider .slides li {
+      margin-right: 10px !important; }
+      .flexslider .slides li:first-child {
+        margin-left: -20px; }
+      .flexslider .slides li:last-child {
+        margin-right: 40px; }
+
+  .full-img {
+    height: calc(100vh - 240px);
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .full-img img {
+      width: 100%;
+      margin-top: -100px; }
+
+  .recent-posts {
+    position: relative; }
+    .recent-posts .card-block {
+      min-height: 230px; }
+
+  .intro .btn:hover {
+    background-color: #44a3d3; }
+
+  .sidebar {
+    position: sticky;
+    top: 100px; } }
