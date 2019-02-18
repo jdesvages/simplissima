@@ -211,12 +211,8 @@ li.css a {
 				}
 			}
 			li {
-				margin-right: 10px !important;
-				&:first-child {
-					margin-left: -20px;
-				}
-				&:last-child {
-					margin-right: 40px;
+				figure {
+					margin: 0;
 				}
 			}
 		}

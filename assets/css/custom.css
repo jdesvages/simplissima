@@ -341,13 +341,9 @@ li.css a {
   .flexslider .slides .flex-caption .btn {
     font-size: 1.3rem;
     padding: 1.5rem 4rem; }
-  .flexslider .slides li {
-    margin-right: 10px !important; }
-  .flexslider .slides li:first-child {
-    margin-left: -20px; }
-  .flexslider .slides li:last-child {
-    margin-right: 40px; }
-
+  .flexslider .slides li figure {
+    margin: 0;
+  }
   .full-img {
     height: calc(100vh - 240px);
     margin-bottom: 30px;
