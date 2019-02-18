@@ -1,5 +1,11 @@
+---
+# Lets add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+  ---
+// Import partials from `sass_dir` (defaults to `_sass`)
+
 @import
-	"syntax"
+"syntax"
 ;
 
 .mediumnavigation {
@@ -12,7 +18,7 @@
 	background-color: #ffd700;
 	&.lk-a {
 		&:hover {
-			background-color: darkred;
+			background-color: red;
 		}
 	}
 	&.lk-b {
@@ -68,6 +74,15 @@
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 	transform: translate(-50%,-50%);
 	z-index: 10;
+	.btn {
+		background: #ffd700;
+		color: #333;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		border: 0;
+		border-radius: 3px;
+		box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+	}
 }
 
 .in-page {
@@ -140,6 +155,11 @@ li.css a {
 			padding-top: 30px;
 		}
 	}
+	.navbar-brand {
+		> img {
+			max-width: 50px !important;
+		}
+	}
 	.navbar-toggleable-md {
 		.navbar-nav {
 			.nav-link {
@@ -148,14 +168,22 @@ li.css a {
 		}
 	}
 	.flexslider {
+		padding-top: 62px;
 		margin-bottom: 0 !important;
+		.slides {
+			figure {
+				margin: 0;
+			}
+			.flex-caption {
+				font-size: 1.2rem;
+				line-height: 1;
+				.btn {
+					font-size: .8rem;
+					padding: .5rem 2rem;
+				}
+			}
+		}
 	}
-	.flex-caption {
-		font-size: 1.5rem;
-		line-height: 1;
-	}
-
-
 	.full-img {
 		display: none;
 	}
@@ -187,6 +215,10 @@ li.css a {
 			.flex-caption {
 				font-size: 2rem;
 				line-height: 1;
+				.btn {
+					font-size: 1.3rem;
+					padding: 1.5rem 4rem;
+				}
 			}
 			li {
 				margin-right: 10px !important;
